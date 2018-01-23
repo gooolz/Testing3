@@ -1,18 +1,5 @@
 defmodule Project do
-  @moduledoc """
-  Documentation for Project.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Project.hello
-      :world
-
-  """
-  def hello do
-    :world
+    def hello do
+    IO.puts "Howdy There!"
   end
 end
